@@ -1,0 +1,32 @@
+.oportunidad-enter, .amenaza-enter{
+     transform: translateX(-50%);
+}
+
+.oportunidad-enter-active, .amenaza-enter-active {
+     transform: translateX(0);
+     transition: transform 500ms ease-in;
+}
+
+.oportunidad-exit, .amenaza-exit{
+     transform: translateX(0);
+}
+
+.oportunidad-exit-active .amenaza-exit-active {
+     transform: translateX(-50%);
+     transition: transform 500ms ease-in
+}
+
+.matriz-enter, .resultados-enter{
+     transform: translateY(50%);
+}
+.matriz-enter-active, .resultados-enter-active{
+     transform: translateY(0);
+     transition: transform 500ms ease-out;
+}
+.matriz-exit, .resultados-exit{
+     transform: translateY(0);
+}
+.matriz-exit-active, .resultados-exit-active{
+     transform: translateY(50%);
+     transition: transform 500ms ease-out;
+}

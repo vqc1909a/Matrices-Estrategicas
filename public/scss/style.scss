@@ -1,0 +1,12 @@
+$primary: #ffc107;
+$secondary: #fd7e14;
+$primary-overlay: rgba(50, 146, 166, .8);
+
+.subactive{
+     background-color: $secondary;
+     opacity: .8;
+}
+
+.matriz, .resultados{
+     border: 1px solid transparent;
+}

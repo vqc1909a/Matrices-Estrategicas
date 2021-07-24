@@ -1,0 +1,6 @@
+.subactive {
+  background-color: #fd7e14;
+  opacity: .8; }
+
+.matriz, .resultados {
+  border: 1px solid transparent; }

@@ -1,0 +1,32 @@
+.fuerzafinanciera-enter, .ventajacompetitiva-enter, .estabilidadambiente-enter, .fuerzaindustria-enter-active{
+     transform: translateX(-50%);
+}
+
+.fuerzafinanciera-enter-active, .ventajacompetitiva-enter-active, .estabilidadambiente-enter-active, .fuerzaindustria-enter-active {
+     transform: translateX(0);
+     transition: transform 500ms ease-in;
+}
+
+.fuerzafinanciera-exit, .ventajacompetitiva-exit, .estabilidadambiente-exit, .fuerzaindustria-exit{
+     transform: translateX(0);
+}
+
+.fuerzafinanciera-exit-active .ventajacompetitiva-exit-active, .estabilidadambiente-exit-active, .fuerzaindustria-exit-active {
+     transform: translateX(-50%);
+     transition: transform 500ms ease-in
+}
+
+.matriz-enter, .resultados-enter{
+     transform: translateY(50%);
+}
+.matriz-enter-active, .resultados-enter-active{
+     transform: translateY(0);
+     transition: transform 500ms ease-out;
+}
+.matriz-exit, .resultados-exit{
+     transform: translateY(0);
+}
+.matriz-exit-active, .resultados-exit-active{
+     transform: translateY(50%);
+     transition: transform 500ms ease-out;
+}

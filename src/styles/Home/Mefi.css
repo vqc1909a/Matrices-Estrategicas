@@ -1,0 +1,32 @@
+.fortaleza-enter, .debilidad-enter{
+     transform: translateX(-50%);
+}
+
+.fortaleza-enter-active, .debilidad-enter-active {
+     transform: translateX(0);
+     transition: transform 500ms ease-in;
+}
+
+.fortaleza-exit, .debilidad-exit{
+     transform: translateX(0);
+}
+
+.fortaleza-exit-active .debilidad-exit-active {
+     transform: translateX(-50%);
+     transition: transform 500ms ease-in
+}
+
+.matriz-enter, .resultados-enter{
+     transform: translateY(50%);
+}
+.matriz-enter-active, .resultados-enter-active{
+     transform: translateY(0);
+     transition: transform 500ms ease-out;
+}
+.matriz-exit, .resultados-exit{
+     transform: translateY(0);
+}
+.matriz-exit-active, .resultados-exit-active{
+     transform: translateY(50%);
+     transition: transform 500ms ease-out;
+}
