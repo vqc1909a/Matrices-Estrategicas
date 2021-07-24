@@ -1,5 +1,7 @@
 # Análisis y Formulación de estrategias
 
+[![Aplicativo Web](./public/images/appweb.png)](https://www.matricesestrategicas.com)
+
 **_Aplicación web_** que consta de una serie de **_matrices estratégicas_** que son un conjunto de herramientas analíticas las cuales nos ayuda a seleccionar la estrategia adecuada de cada uno de los productos/servicios de la empresa.
 
 La mayoría de las matrices estratégicas representan el posicionamiento que tiene nuestra empresa a través de sus productos/servicios o líneas de negocio frente a la competencia, gracias a esta comparativa y teniendo en cuenta otros factores que influyen en el éxito de la empresa nos ayudará a tomar la mejor decisión a nivel de estrategia corporativa.
@@ -51,6 +53,7 @@ _Etapa 3: Etapa de desición_
 - [ ] Añadir Matriz del Boston Consulting Group(BCG)
 - [ ] Añadir Matriz interna-externa (IE)
 - [ ] Añadir Matriz de la estrategia principal
+
 
 
 
