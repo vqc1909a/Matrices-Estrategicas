@@ -20,6 +20,12 @@ _Etapa 2: Etapa de adecuación_
 _Etapa 3: Etapa de desición_
 * Matriz MPC
 
+**LENGUAJES DE PRGORAMACIÓN USADOS:**
+Lenguajes |
+------------ | 
+React | 
+Boostrap |
+
 **ENLACES PARA ENTENDER MEJOR LA APP:**
 * [Tutorial sobre la aplicación](https://www.youtube.com/watch?v=XeAfkhQOBUA)
 
@@ -30,17 +36,28 @@ _Etapa 3: Etapa de desición_
 
 2. Clonar rama fork
     ```git
-      git clone https://github.com/_nameuser_/Matrices-Estrategicas
+      git clone https://github.com/_nameuser_/Matrices-Estrategicas.git
     ```
-3. Realizar cambios y pushearlos
+3. Instalar los paquetes especificados
+
+   ```bash
+      npm install
+   ```
+4. Ejecutar aplicación
+   ```bash
+      npm run dev
+   ```
+5. Realizar cambios y pushearlos
     ```git
       git push origin main
     ```
-4. Comparar y crear PR
+6. Comparar y crear PR
 
    ![Fork](./public/images/pull-request.png)
   
-5. A esperar el mergeo del PR ✿◡‿◡
+7. A esperar el mergeo del PR ✿◡‿◡
+
+**IMPORTANTE:** Para correr esta aplicación tienes que tener instalado _NodeJS_
 
 ## Acerca de los PRs
   * **No hagas PRs para refactorizar código o cambiar la estructura del proyecto (carpetas)**, la idea es añadir más funcionalidades
