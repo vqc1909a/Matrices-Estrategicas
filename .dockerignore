@@ -1,6 +1,14 @@
 node_modules
 npm-debug.log
 build
-.git
+.git/
+.vscode/
+.cache/
+.npm/
+.env
+.DS_Store
+.bash_history
+*.log
+*.pid
 *.md
 .gitignore

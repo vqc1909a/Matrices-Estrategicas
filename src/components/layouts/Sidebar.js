@@ -17,7 +17,7 @@ const Sidebar = (props) => {
                className="brand-image img-circle elevation-3"
                style={{ opacity: ".8" }}
              />
-             <p className="brand-text small text-white font-weight-bolder m-0 mt-1">Dirección Estratégica</p>
+             <p className="brand-text small text-white font-weight-bolder m-0 mt-1">Matrices Estratégicas</p>
            </Link>
 
            {/*<!-- Sidebar -->*/}
