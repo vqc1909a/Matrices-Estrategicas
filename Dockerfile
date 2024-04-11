@@ -2,9 +2,10 @@
 FROM node:14.19.0 AS build
 ENV NODE_ENV production
 WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY ./ ./
+COPY ./package*.json ./
+RUN npm install --production
+COPY public ./public
+COPY src ./src
 RUN npm run build
 
 FROM nginx
