@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .
+      target: nginx
+      # dockerfile: Dockerfile
+    ports:
+      - 80:80
+    environment:
+      NODE_ENV: production

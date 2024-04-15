@@ -1,10 +1,11 @@
 services:
   app:
-    image: node:14.19.0-alpine
-    command: sh -c "npm install && npm start"
+    build:
+      context: .
+      # dockerfile: Dockerfile.dev
+      target: development
     ports:
-      - 3000:3000
-    working_dir: /app
+      - 3001:3000
     volumes:
       - ./:/app
     environment:
